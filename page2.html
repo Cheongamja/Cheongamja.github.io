@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<style>
+		*{
+			padding: 0;
+			margin: 0;
+		}
+		.clear{
+			clear: both;
+		}
+		body{
+			text-align: center;
+			margin: 0 auto;
+			margin-top: 20px
+		}
+		#login{
+			font-size: 15px;
+			font-weight: bold;
+			text-align: right;
+			margin-right: 300px;
+		}
+		#title{
+			background-image: url(./ing/title.png);
+			background-repeat: no-repeat;
+			background-position: center top;
+		}
+		nav{
+			margin: 20px;
+			text-align: center;
+		}
+		nav li{
+			margin: 20px 50px;
+			color: #00365D;
+		}
+		li{
+			display: inline;
+			list-style-type: none;
+			font-weight: bold;
+		}
+		.dropdown{
+			display: inline-block;
+		}
+		.dropdown-content{
+			display: none;
+			position: absolute;
+			background-color: #C6FFFD;
+			width: 100px;
+			padding: 12px 16px;
+		}
+		.dropdown:hover .dropdown-content{
+			display: block;
+		}
+		#address{
+			color: #BDBDBD;
+		}
+		section{
+			margin: 50px;
+		}
+		.image{
+			text-align: left;
+		}
+		.text{
+			text-align: right;
+			margin-right: 300px; 
+		}
+		footer{
+			margin: 100px;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<p id="login">로그인 | 회원가입</p>
+		<div id="title"><a href="index.html"><img src="./ing/title2.png" width="30%"></a></div>
+	</header>
+	<div class="clear"></div>
+	<nav>
+		<ul>
+			<li>
+				<div class="dropdown">펭펭 기본상식
+					<div class="dropdown-content">
+						<p><a href="page2.html">펭귄에 대해</a></p>
+						<p><a href="page3.html">펭귄의 특성</a></p>
+						<p>펭귄이 좋아하는것</p>
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="dropdown">펭귄의 종류
+					<div class="dropdown-content">
+						<p>황제펭귄</p>
+						<p>아델리펭귄</p>
+						<p>기타 펭귄들</p>
+					</div>
+				</div></li>
+			<li>
+				<div class="dropdown">펭펭 갤러리
+					<div class="dropdown-content">
+						<p>Photo</p>
+						<p>Drowing</p>
+						<p>기타</p>
+					</div>
+				</div></li>
+			<li>
+				<div class="dropdown">펭펭 자료실
+					<div class="dropdown-content">
+						<p>Media</p>
+						<p>Mail</p>
+						<p>Special</p>
+					</div>
+				</div></li>
+		</ul>
+	</nav>
+	<div class="clear"></div>
+	<section>
+		<div class="image">
+			<img src="./ing/allpenguin.png">
+		</div>
+		<div class="text">
+			본래 ‘펭귄’은 북반구에 서식했던 큰바다쇠오리(Pinguinus impennis)를 부르는 말이었으나,<br>
+			나중에 유럽인들이 남반구에서 발견한 비슷하게 생긴 새에 ‘펭귄’이라는 이름을 붙였다.<br>
+			이후 큰바다쇠오리가 멸종하면서 ‘펭귄’은 남반구 펭귄을 부르는 이름으로 굳어졌다.<br><br>
+
+			‘펭귄’이라는 말의 어원에 대해서는 수렴된 의견이 없다.<br>
+			‘흰 머리’란 뜻의 웨일스어 pen gwyn에서 왔다는 설과<br>
+			‘뚱뚱한’이란 뜻의 라틴어 pinguis에서 왔다는 설 등이 있다.<br><br>
+
+			전 세계에 알려진 펭귄의 종류는 17종 혹은 18종이다.<br>
+			(쇠푸른펭귄과 흰날개펭귄이 식별되는지 아닌지에 따라 달라진다.)<br>
+			모든 펭귄 종의 고향이 남반구이기는 하지만, 통념과 달리,<br>
+			남극과 같이 추운 기후에서만 서식하지는 않는다.<br>
+			실제로는 몇몇 종만이 극지방에 산다. 3종은 열대 지방에 살며,<br>
+			그 가운데 갈라파고스 제도에 사는 한 종은 먹이를 찾다가 적도를 건너기도 한다.<br><br>
+
+			가장 큰 종은 황제펭귄으로, 다 자라면 키가 약 1.1미터, 무게가 약 35킬로그램 이상이다.<br>
+			가장 작은 종은 쇠푸른펭귄으로, 키는 약 40센티미터에 몸무게가 1킬로그램에 불과하다.<br>
+			일반적으로 펭귄은 덩치가 클수록 열을 잘 보관해서 추운 지방에 살고,<br>
+			작은 펭귄들은 온대나 심지어 열대에서 발견된다.
+		</div>
+	</section>
+	<div class="clear"></div>
+	<footer>
+		<div id="address">
+			부천대학교 영상&게임콘텐츠과<br>
+			1851027 천영진 &nbsp; ⓒCheongamla
+		</div>
+	</footer>
+</body>
+</html>
