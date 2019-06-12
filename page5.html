@@ -64,6 +64,20 @@
 		section{
 			margin: 50px;
 		}
+		table,tr,td{
+			margin: auto;
+			float: center;
+		}
+		th{
+			border: dashed 1px;
+			padding: 20px;
+		}
+		td{
+			padding: 7px;
+		}
+		.name{
+			font-size: 20px;
+		}
 		.image{
 			text-align: left;
 			float: left;
@@ -109,7 +123,7 @@
 				<div class="dropdown">펭펭 갤러리
 					<div class="dropdown-content">
 						<p><a href="page4.html">Photo</a></p>
-						<p><a href="page5.html">Drowing</a></p>
+						<p><a href="page5.html">Drawing</a></p>
 						<p>기타</p>
 					</div>
 				</div></li>
@@ -125,22 +139,27 @@
 	</nav>
 	<div class="clear"></div>
 	<section>
-		<table>
+		<table border="0">
 			<tr>
-				<td></td>
-				<td></td>
+				<th colspan="4" class="name">
+					Drawing Gallery
+				</th>
 			</tr>
 			<tr>
-				<th></th>
-				<th></th>
+				<td><img src="./ing/pg1.png"></td>
+				<td><img src="./ing/pg2.png"></td>
 			</tr>
 			<tr>
-				<td></td>
-				<td></td>
+				<th>&lt;크리스마스 선물&gt;</th>
+				<th>&lt;커플펭펭&gt;</th>
 			</tr>
 			<tr>
-				<th></th>
-				<th></th>
+				<td><img src="./ing/pg3.png"></td>
+				<td><img src="./ing/pg4.png"></td>
+			</tr>
+			<tr>
+				<th>&lt;무서운 펭귄&gt;</th>
+				<th>&lt;귀욤펭귄&gt;</th>
 			</tr>
 		</table>
 	</section>
