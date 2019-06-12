@@ -11,13 +11,13 @@
 			clear: both;
 		}
 		body{
+			background-color: #e4f5ff;
 			text-align: center;
 			margin: 0 auto;
 			margin-top: 20px
 		}
 		#login{
 			font-size: 15px;
-			font-weight: bold;
 			text-align: right;
 			margin-right: 300px;
 		}
@@ -41,22 +41,36 @@
 		}
 		.dropdown{
 			display: inline-block;
+			font-size: 22px;
+			font-weight: bold;
 		}
 		.dropdown-content{
 			display: none;
 			position: absolute;
-			background-color: #C6FFFD;
+			background-color: #c3f2f9;
 			width: 100px;
 			padding: 12px 16px;
+			font-size: 16px;
 		}
 		.dropdown:hover .dropdown-content{
 			display: block;
+		}
+		nav p{
+			margin: 7px;
 		}
 		#address{
 			color: #BDBDBD;
 		}
 		section{
 			margin: 50px;
+		}
+		#memo{
+			background-image: url(./ing/goof.png);
+			background-repeat: no-repeat;
+			background-position: center center;
+		}
+		#memo img{
+			margin: 170px 0 120px 10px;
 		}
 		footer{
 			margin: 100px;
@@ -66,7 +80,7 @@
 <body>
 	<header>
 		<p id="login">로그인 | 회원가입</p>
-		<div id="title"><a href="index.html"><img src="./ing/title2.png" width="30%"></a></div>
+		<div id="title"><a href="index.html"><img src="./ing/title2.png" width="500"></a></div>
 	</header>
 	<div class="clear"></div>
 	<nav>
@@ -91,8 +105,8 @@
 			<li>
 				<div class="dropdown">펭펭 갤러리
 					<div class="dropdown-content">
-						<p>Photo</p>
-						<p>Drowing</p>
+						<p><a href="page4.html">Photo</a></p>
+						<p><a href="page5.html">Drowing</a></p>
 						<p>기타</p>
 					</div>
 				</div></li>
@@ -108,10 +122,13 @@
 	</nav>
 	<div class="clear"></div>
 	<section>
-		<img src="./ing/goof.png" width="80%">
+		<div id=memo>
+			<img src="./ing/peng1.png" width="300"> <img src="./ing/peng2.png" width="400"> <img src="./ing/peng3.png" width="400">
+		</div>
 	</section>
 	<div class="clear"></div>
 	<footer>
+		<div><img src=""></div>
 		<div id="address">
 			부천대학교 영상&게임콘텐츠과<br>
 			1851027 천영진 &nbsp; ⓒCheongamla
