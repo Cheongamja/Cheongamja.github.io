@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<style>
+		*{
+			padding: 0;
+			margin: 0;
+		}
+		.clear{
+			clear: both;
+		}
+		body{
+			background-color: #e4f5ff;
+			text-align: center;
+			margin: 0 auto;
+			margin-top: 20px
+		}
+		#login{
+			font-size: 15px;
+			text-align: right;
+			margin-right: 300px;
+		}
+		#title{
+			background-image: url(./ing/title.png);
+			background-repeat: no-repeat;
+			background-position: center top;
+		}
+		nav{
+			margin: 20px;
+			text-align: center;
+		}
+		nav li{
+			margin: 20px 50px;
+			color: #00365D;
+		}
+		li{
+			display: inline;
+			list-style-type: none;
+			font-weight: bold;
+		}
+		.dropdown{
+			display: inline-block;
+			font-size: 22px;
+			font-weight: bold;
+		}
+		.dropdown-content{
+			display: none;
+			position: absolute;
+			background-color: #c3f2f9;
+			width: 100px;
+			padding: 12px 16px;
+			font-size: 16px;
+		}
+		.dropdown:hover .dropdown-content{
+			display: block;
+		}
+		nav p{
+			margin: 7px;
+		}
+		#address{
+			color: #4A608D;
+		}
+		section{
+			margin: 50px;
+		}
+		footer{
+			margin: 100px;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<p id="login">로그인 | 회원가입</p>
+		<div id="title"><a href="index.html"><img src="./ing/title2.png" width="500"></a></div>
+	</header>
+	<div class="clear"></div>
+	<nav>
+		<ul>
+			<li>
+				<div class="dropdown">펭펭 기본상식
+					<div class="dropdown-content">
+						<p><a href="page2.html">신체정보</a></p>
+						<p><a href="page3.html">펭귄의 특성</a></p>
+						<p>좋아하는것</p>
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="dropdown">펭귄의 종류
+					<div class="dropdown-content">
+						<p>황제펭귄</p>
+						<p>아델리펭귄</p>
+						<p>기타 펭귄들</p>
+					</div>
+				</div></li>
+			<li>
+				<div class="dropdown">펭펭 갤러리
+					<div class="dropdown-content">
+						<p><a href="page4.html">Photo</a></p>
+						<p><a href="page5.html">Drawing</a></p>
+						<p>기타</p>
+					</div>
+				</div></li>
+			<li>
+				<div class="dropdown">펭펭 자료실
+					<div class="dropdown-content">
+						<p><a href="page7.html">Media</a></p>
+						<p>Mail</p>
+						<p><a href="page6.html">Special</a></p>
+					</div>
+				</div></li>
+		</ul>
+	</nav>
+	<div class="clear"></div>
+	<section>
+		<div>
+			<form>
+			<img src="./ing/pgmj.png"><br><br>
+			<h3>펭귄문제</h3><br>
+			<p>틀리면 3일간 펭귄 프사로 살아야 합니다.<br>
+			정답은 아무에게도 말하지 마세요.<br><br>
+			문제: 부대찌개 3인분을 먹으면 부대찌개<br>
+			1인분을 서비스로 제공하는 식당이 있다.<br>
+			부대찌개 20인분을 시키면 몇인분을 먹을<br>
+			수 있는가?</p><br><br>
+			정답은?<br>
+			<textarea rows="10" cols="60"></textarea><br>
+			<button type="submit">제출!</button>
+			</form>
+		</div>
+	</section>
+	<div class="clear"></div>
+	<footer>
+		<div><img src="./ing/fute.png"></div>
+		<div id="address">
+			부천대학교 영상&게임콘텐츠과<br>
+			1851027 천영진 &nbsp; ⓒCheongamla
+		</div>
+	</footer>
+</body>
+</html>
